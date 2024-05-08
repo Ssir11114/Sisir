@@ -12,8 +12,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+   git.
 
-    - name: Start Project
+     - name: Start Project
       run: npm start
         # Start your project here
         # Example command:
