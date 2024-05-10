@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "ayanbot404@gmail.com",
+    "password": "ayan@@@1209adi",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -17,8 +17,7 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61558522534273",
-    "61557064227753",
+    "61551774501334",
     "",
     ""
   ],
@@ -30,9 +29,9 @@
   "authorName": "MR.AYAN",
   "AGE": "18",
   "GENDER": "MALE",
-  "nickNameBot": "(☞ ͡° ͜ʖ ͡°)☞ ♡︎𝗠𝗜𝗥𝗔 𝗞𝗜𝗠 𝗥𝗢𝗕𝗢𝗧♡︎",
-  "authorFB": "https://m.me/Profile.photo.nb.0194",
-  "prefix": "/",
+  "nickNameBot": "♡︎𝗠𝗜𝗥𝗔 𝗞𝗜𝗠 𝗥𝗢𝗕𝗢𝗧♡︎",
+  "authorFB": "https://m.me/NOOBS.DEVELOPER.AYAN",
+  "prefix": ".",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -149,4 +148,4 @@
     "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
     "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   }
-}
+} 
