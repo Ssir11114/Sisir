@@ -1,12 +1,12 @@
 {
   "facebookAccount": {
-    "email": "sisirsarkar5604@gmail.com",
-    "password": "sisir55773",
+    "email": "",
+    "password": "",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
-    "intervalGetNewCookie": 1440,
+    "intervalGetNewCookie": 4320,
     "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
   },
   "antiInbox": false,
@@ -17,17 +17,22 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100079908017635",
+    "61558522534273",
+    "61557064227753",
     "",
-    "100072881080249"
+    ""
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "𝔅𝔞𝔫𝔨𝔞𝔦 𝔟𝔬𝔱 ",
-  "prefix": "-",
+  "authorName": "MR.AYAN",
+  "AGE": "18",
+  "GENDER": "MALE",
+  "nickNameBot": "(☞ ͡° ͜ʖ ͡°)☞ ♡︎𝗠𝗜𝗥𝗔 𝗞𝗜𝗠 𝗥𝗢𝗕𝗢𝗧♡︎",
+  "authorFB": "https://m.me/Profile.photo.nb.0194",
+  "prefix": "/",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -35,18 +40,18 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Kathmandu",
+  "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "xemonbae@gmail.com",
-      "clientId": "703210852639-ic8u4br6bdo6jg6dgguirqi7jkgbpl6l.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04svAaCtGHs-ICgYIARAAGAQSNwF-L9IrjiQvNzr409HIVspHncIVnrz7ZI5VxTU3dvw5TwHLZi1BhYEwEJNs9YpLDm7xDEBt1fU",
+      "email": "ayanbotbeluga@gmail.com",
+      "clientId": "335951889803-q0sqvpqjire12vl0c1drqpvq6trqe7qi.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04vKSsirtbMjRCgYIARAAGAQSNwF-L9Ir45Y2gJy6rg7wvfCbzF5fTFQxOhV83N6jQC-N5n6S-rNnEUgujiuWu4OvrLEbmELMcSI",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6LesKYgpAAAAAOKKCkeeHYPSi0ublhQ0wRa6Axuq",
-      "secretKey": "6LesKYgpAAAAAL4fodXBHXocKQzvP9uXLFvavI18"
+      "siteKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5",
+      "secretKey": "6LcEPTMpAAAAAKRhQmTp03g4rkq-U6jXs8E8rDf5"
     }
   },
   "dashBoard": {
@@ -56,21 +61,22 @@
   },
   "serverUptime": {
     "enable": false,
-    "port": 3001,
+    "port": 3000,
     "socket": {
       "enable": true,
       "channelName": "uptime",
-      "verifyToken": ""
-    }
+      "verifyToken": "AJ3mQqe9wrL8sF5NAwJuSteH",
+			"url": ""
+		}
   },
   "autoRestart": {
-    "time": 86400000,
+    "time": 3600000,
     "notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 * * *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
   },
   "autoUptime": {
     "enable": true,
-    "timeInterval": 500,
-    "url": "https://uptime.botrandom30.repl.co",
+    "timeInterval": 8640,
+    "url": "${process.env.DevURL}.sisko.replit.dev/",
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
   "autoLoadScripts": {
@@ -112,9 +118,7 @@
     "wrongCommand": false,
     "adminOnly": false,
     "threadBanned": false,
-    "userBanned": false,
-    "needRoleToUseCmdOnReply": false,
-    "needRoleToUseCmdOnReaction": false
+    "userBanned": false
   },
   "logEvents": {
     "disableAll": false,
@@ -138,5 +142,11 @@
     "autoMarkDelivery": false,
     "autoReconnect": true,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
+  },
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": [],
+    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
+    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   }
 }
